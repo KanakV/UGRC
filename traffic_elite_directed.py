@@ -122,7 +122,6 @@ def animate(all_frames):
         return ragent + bagents
 
     ani = animation.FuncAnimation(fig, update, frames=ITERATIONS, interval=100)
-    ani.save('code/videos/traffic_elite.gif', writer='ffmepg')
     plt.legend()
     plt.show()
 
